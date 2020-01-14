@@ -7,8 +7,8 @@ localectl set-locale LANG=ja_JP.UTF-8
 source /etc/locale.conf
 yum -y install epel-release
 yum -y groupinstall "GNOME Desktop"
-yum -y --enablerepo=epel groupinstall "MATE Desktop"
-echo "PREFERRED=/usr/bin/mate-session" > /etc/sysconfig/desktop
+#yum -y --enablerepo=epel groupinstall "MATE Desktop"
+#echo "PREFERRED=/usr/bin/mate-session" > /etc/sysconfig/desktop
 yum -y remove wine
 yum -y erase wine wine-*
 yum -y install samba-winbind-clients
