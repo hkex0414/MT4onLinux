@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 yum -y update
 timedatectl set-timezone Asia/Tokyo
 yum -y install ibus-kkc vlgothic-*
