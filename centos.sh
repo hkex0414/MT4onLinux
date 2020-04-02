@@ -50,15 +50,15 @@
 
 # https://vps-ea.com/centos-gnome/#toc3
 
-localectl set-locale LANG=ja_JP.UTF-8
-source /etc/locale.conf
-timedatectl set-timezone Asia/Tokyo
+# localectl set-locale LANG=ja_JP.UTF-8
+# source /etc/locale.conf
+# timedatectl set-timezone Asia/Tokyo
 
-yum install samba-winbind-clients
-yum groupinstall 'Development Tools'
-yum install glibc-devel.{i686,x86_64} gnutls-devel.{i686,x86_64} freetype-devel.{i686,x86_64} alsa-lib-devel.{i686,x86_64}
-yum install libtiff-devel.{i686,x86_64} libgcc.{i686,x86_64} libX11-devel.{i686,x86_64} libxml2-devel.{i686,x86_64}
-yum install libjpeg-turbo-devel.{i686,x86_64} libpng-devel.{i686,x86_64} libXrender-devel.{i686,x86_64}
+# yum install samba-winbind-clients
+# yum groupinstall 'Development Tools'
+# yum install glibc-devel.{i686,x86_64} gnutls-devel.{i686,x86_64} freetype-devel.{i686,x86_64} alsa-lib-devel.{i686,x86_64}
+# yum install libtiff-devel.{i686,x86_64} libgcc.{i686,x86_64} libX11-devel.{i686,x86_64} libxml2-devel.{i686,x86_64}
+# yum install libjpeg-turbo-devel.{i686,x86_64} libpng-devel.{i686,x86_64} libXrender-devel.{i686,x86_64}
 
 mkdir wine
 cd wine
